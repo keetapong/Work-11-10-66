@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.Logo {
+    padding: 20px 0px 0px 25px;
+}
+
+.About {
+    height: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.About a {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 0, 234);
+}
+
+.content {
+    color: rgb(255, 0, 234);
+    width: 100%;
+    height: 595px;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 15rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.Main2 {
+    background-size: cover; 
+    width: 100%; 
+    height: 700px;
+}
+
+@media (max-width: 768px) {
+    /* กำหนด CSS สำหรับขนาดหน้าจอที่เล็กกว่า 768px */
+    .Navber {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        /* แบ่งออกเป็นสองคอลัมน์ที่มีความกว้างเท่ากัน */
+        align-items: center;
+        /* จัดให้อยู่กึ่งกลางในแนวตั้ง */
+        gap: 10px;
+        width: 100%;
+        height: 30px;
+    }
+
+    .Main {
+        background-image: url(Imgs/Main/Mobile/home\ bg1-01.png);
+        background-size: cover;
+        width: 100%;
+        height: 1300px;
+    }
+
+    .Main2 {
+        background-image: url(Imgs/Main/Mobile/home\ bg2.png);
+        background-size: cover;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .Main3 {
+        background-image: url(Imgs/Main/Mobile/home\ bg3.png);
+        background-size: cover;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .Main4 {
+        background-image: url(Imgs/Main/Mobile/home\ bg4.png);
+        background-size: cover;
+        width: 100%;
+        height: 1300px;
+    }
+
+    .welcome {
+        margin-top: 60%;
+        font-size: 6rem;
+    }
+
+    .main_about {
+        background-image: url(Imgs/About/Mobile/AboutMe.png);
+        background-size: contain; /* เปลี่ยนจาก 'cover' เป็น 'contain' */
+        background-repeat: no-repeat; /* ป้องกันการทำซ้ำรูปภาพในพื้นหลัง */
+        background-position: top center;
+        max-width: 100%;
+        height: 1400px;
+    }
+
+    .main_hendcreft {
+        background-image: url(Imgs/Handcraft/Mobile/handcraft\ all.png);
+        background-size: contain; /* เปลี่ยนจาก 'cover' เป็น 'contain' */
+        background-repeat: no-repeat; /* ป้องกันการทำซ้ำรูปภาพในพื้นหลัง */
+        background-position: top center;
+        width: 100%;
+        height: 2670px;
+    }
+
+    .main_artwork {
+        margin-top: 0px;
+        background-image: url('Imgs/ArtWork/Mobile/artwork\ moblie.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center;
+        width: 100%;
+        height: 6700px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1240px) {
+    .welcome {
+        margin-top: 25%;
+        font-size: 8rem;
+    }
+}
+
+@media (min-width: 768px) {
+    /* กำหนด CSS สำหรับขนาดหน้าจอที่ใหญ่กว่า 1024px */
+    .Navber {
+        display: grid;
+        grid-template-columns: 6fr 1fr;
+        /* แบ่งออกเป็นสองคอลัมน์ที่มีความกว้างเท่ากัน */
+        align-items: center;
+        /* จัดให้อยู่กึ่งกลางในแนวตั้ง */
+        gap: 10px;
+        width: 100%;
+        height: 30px;
+    }
+
+    .Main {
+        background-image: url(Imgs/Main/Wed/Backgroung-main.png);
+        background-size: cover;
+        width: 100%;
+        height: 850px;
+    }
+
+    .Main2 {
+        background-image: url(Imgs/Main/Wed/Backgroung-main2.png);
+        background-size: cover;
+        width: 100%;
+    }
+
+    .Main3 {
+        background-image: url(Imgs/Main/Wed/Backgroung-main3.png);
+        background-size: cover;
+        width: 100%;
+        height: 850px;
+    }
+
+    .Main4 {
+        background-image: url(Imgs/Main/Wed/Backgroung-main4.png);
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+    }
+
+    .main_about {
+        background-image: url(Imgs/About/Wed/About-Me.png);
+        background-size: contain; /* เปลี่ยนจาก 'cover' เป็น 'contain' */
+        background-repeat: no-repeat; /* ป้องกันการทำซ้ำรูปภาพในพื้นหลัง */
+        background-position: top center;
+        width: 100%;
+        height: 850px;
+    }
+
+    .main_hendcreft {
+        background-image: url(Imgs/Handcraft/Wed/handcraft\ link-all.jpg);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        background-position: top center;
+        width: 100%;
+        height: 1680px;
+    }
+
+    .main_artwork {
+        margin-top: 0px;
+        background-image: url('Imgs/ArtWork/Wed/artwork all.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center;
+        width: 100%;
+        height: 4250px;
+    }
+}
